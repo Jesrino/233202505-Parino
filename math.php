@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Task 2: Simple Math</title>
+    <title>Simple Math</title>
 </head>
 <body>
+    <H1>Task 2: Simple Math</H1>
     <?php
-    $a=10;
+    $a=160;
     $b= 165;
 
     $sum=$a+$b;
