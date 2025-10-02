@@ -16,12 +16,12 @@
     $product=$a*$b;
     $qoutient=$a/$b;
 
-    echo "Value of A: ".$a ;
-    echo "Value of B: ".$b ;
-    echo "The sum is: ".$sum;
-    echo "The difference is: ".$difference;
-    echo "The product is: ".$product;
-    echo "The qoutient is: ".$qoutient;
+    echo "Value of A: ". $a . "<br>" ;
+    echo "Value of B: ". $b . "<br>";
+    echo "The sum is: ". $sum . "<br>";
+    echo "The difference is: ". $difference . "<br>";
+    echo "The product is: ". $product ."<br>";
+    echo "The qoutient is: ". $qoutient ."<br>";
 
     ?>
 
