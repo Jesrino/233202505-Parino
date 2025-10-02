@@ -6,6 +6,7 @@
     <title>Area and Perimeter of a Rectangle</title>
 </head>
 <body>
+    <H1>Task 3:Area and Perimeter of a Rectangle </H1>
     <?php 
      $length = 0;
      $width = 0;

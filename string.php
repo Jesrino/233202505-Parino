@@ -3,9 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>String Manipulation</title>
 </head>
 <body>
+    <h1>Task 8: String Manipulation</h1>
+    <?php 
+    
+    ?>
     
 </body>
 </html>
