@@ -12,8 +12,9 @@
   $age="20";
   $color="Light Blue";
 
-  echo "My name is" . $name . "and I'm " . $age . "";
-  
+  echo " My name is " . $name . " nice to meet you. " ;
+  echo "I'm " . $age . " this year.";
+  echo "My favorite color was ". $color . "as this symbolize my passion. ";
   ?>
 </body>
 </html>

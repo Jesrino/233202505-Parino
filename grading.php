@@ -6,6 +6,10 @@
     <title>Simple Grading System</title>
 </head>
 <body>
+    <h1>Task 10: Simple Grading System </h1>
+    <?php 
+    
+    ?>
     
 </body>
 </html>
