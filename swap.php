@@ -8,7 +8,17 @@
 <body>
     <h1>Task 5: Swapping Variables </h1>
     <?php 
+        $a = 5;
+        $b = 10;
+
+        echo "<p>Before swapping: a = $a, b = $b</p>";
+
+        $temp = $a;
+        $a = $b;
+        $b = $temp;
+
+        echo "<p>After swapping: a = $a, b = $b</p>";
     ?>
     
-</body>
+</body> 
 </html>
