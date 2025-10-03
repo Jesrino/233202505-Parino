@@ -8,7 +8,11 @@
 <body>
     <h1>Task 4: Temperature Converter</h1>
     <?php 
-    
+        $celsius = 25; 
+        $fahrenheit = ($celsius * 9/5) + 32;
+
+        echo "<p>Temperature in Celsius: $celsius °C</p>";
+        echo "<p>Temperature in Fahrenheit: $fahrenheit °F</p>";
 
     ?>
 </body>
