@@ -11,8 +11,6 @@
         $distance = 300; 
         $mpg = 25; 
         $fuel_cost_per_gallon = 3.50; 
-
-        
         $total_fuel_needed = $distance / $mpg;
         $total_travel_cost = $total_fuel_needed * $fuel_cost_per_gallon;
 
