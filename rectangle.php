@@ -12,9 +12,9 @@
      $length = 0;
      $width = 0;
         $area = $length * $width;
-        echo "<p>Length: $length</p>";
-        echo "<p>Width: $width</p>";
-        echo "<p>Area: $area</p>";
+        echo "Length: " . $length ."<br>";
+        echo "Width:" . $width . "br";
+        echo "Area: " . $area ."<br>";
     ?>
     
 </body>
