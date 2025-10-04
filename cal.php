@@ -11,10 +11,10 @@
      $weight = 59;
      $height = 160; 
         $bmi = $weight / ($height * $height);
-        echo "<p>Weight: $weight kg</p>";
-        echo "<p>Height: $height m</p>";
-        echo "<p>BMI: $bmi</p>";
-        ?>
 
+        echo "Weigth: " . $weight . "kg<br>";
+        echo "Height:" . $height . "m<br>";
+        echo "BMI:". $bmi . "<br>";
+        ?>
 </body>
 </html>
