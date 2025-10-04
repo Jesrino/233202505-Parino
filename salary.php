@@ -14,10 +14,10 @@
 
         $annualSalary = $hourlyRate * $hoursPerWeek * $weeksPerYear;
 
-        echo "<p>Hourly Rate: $$hourlyRate</p>";
-        echo "<p>Hours per Week: $hoursPerWeek</p>";
-        echo "<p>Weeks per Year: $weeksPerYear</p>";
-        echo "<p>Annual Salary: $$annualSalary</p>";
+        echo "Hourly Rate: ". $hourlyRate . "<br>";
+        echo "Hours per Week: ". $hoursPerWeek . "</br>";
+        echo "Weeks per Year: " . $weeksPerYear . "<br>";
+        echo "Annual Salary: " . $annualSalary . "<br>";
         ?>
 </body>
 </html>

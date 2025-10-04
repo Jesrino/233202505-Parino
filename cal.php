@@ -12,9 +12,7 @@
     $height = 160;
     $bmi = $weight / ($height * $height);
 
-    echo "Weigth: " . $weight . "kg<br>";
-    echo "Height: " . $height . "m<br>";
-    echo "BMI: ". $bmi . "<br>";     
+      
     ?>
 
 </body>

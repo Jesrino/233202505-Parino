@@ -9,12 +9,13 @@
     <H1>Task 3:Area and Perimeter of a Rectangle </H1>
 
     <?php 
-     $length = 0;
-     $width = 0;
-        $area = $length * $width;
-        echo "Length: " . $length ."<br>";
-        echo "Width:" . $width . "br";
-        echo "Area: " . $area ."<br>";
+     $length = 15;
+     $width = 12;
+    $area = $length * $width;
+
+    echo "Length: " . $length ."<br>";
+    echo "Width:" . $width . "<br>";
+    echo "Area: " . $area ."<br>";
     ?>
     
 </body>

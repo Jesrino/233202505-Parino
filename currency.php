@@ -13,23 +13,14 @@
         $php = 55.00;
         $amountInUSD = 100; 
         $amountInEUR = $amountInUSD * $eur;
-        $amountInGBP = $amountInUSD * $php;
+        $amountInPHP = $amountInUSD * $php;
 
         echo " Amount in USD:" . $amountInUSD . "<br>";
         echo "Converted to EUR: €" . number_format($amountInEUR, 2) . "<br>";
-        echo "Converted to GBP: £" . number_format($amountInGBP, 2) . "<br>";
+        echo "Converted to PHP: £" . number_format($amountInPHP, 2) . "<br>";
     
-    
-    
-    
-    
-    
-    
+  
     ?>
-    
-        echo "Amount in USD:" . $amountInUSD . "<br>";
-        echo "Converted to EUR: €" . number_format($amountInEUR, 2) . "<br>";
-        echo "Converted to GBP: £" . number_format($amountInGBP, 2) . "<br>";
        
 </body>
 </html>
