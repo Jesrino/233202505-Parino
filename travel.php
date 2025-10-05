@@ -18,7 +18,7 @@
         echo "Miles per Gallon: " . $m . "pg<br>";
         echo "Fuel Cost per Gallon: " . $fuel_cost . "<br>";
         echo "Total Fuel Needed: " . number_format($total_fuel_needed, 2) . " litters<br>";
-        echo "Total Travel Cost: $" . number_format($total_travel_cost, 2) . "<br>";
+        echo "Total Travel Cost: ₱" . number_format($total_travel_cost, 2) . "<br>";
     ?>
 </body>
 </html>

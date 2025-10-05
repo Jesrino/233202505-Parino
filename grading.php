@@ -28,7 +28,7 @@
     } else {
         $grade = "F";
     }
-    echo "Grade". $grade ."<br>";
+    echo "Grade: ". $grade ."<br>";
 
 
     ?>
