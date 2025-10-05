@@ -12,9 +12,9 @@
     $usd_rate = 0.018;
     $eur_rate = 0.017;
     $jpy_rate = 2.65;
-    echo "₱ $php_amount = USD " . ($php_amount * $usd_rate) . "<br>";
-    echo "₱ $php_amount = EUR " . ($php_amount * $eur_rate) . "<br>";
-    echo "₱ $php_amount = JPY " . ($php_amount * $jpy_rate) . "<br>";
+    echo "₱  $php_amount = $ " . ($php_amount * $usd_rate) . "<br>";
+    echo "₱ $php_amount = € " . ($php_amount * $eur_rate) . "<br>";
+    echo "₱ $php_amount = ¥ " . ($php_amount * $jpy_rate) . "<br>";
     ?> 
 </body>
 </html>
