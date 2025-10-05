@@ -8,7 +8,14 @@
 <body>
     <h1>Task 10: Simple Grading System </h1>
     <?php 
+    $math = 85;
+    $english = 78;
+    $science = 85;
+    echo "Math: " . $math . "<br>";
+    echo "English: " . $english . "<br>";
+    echo "Science: ". $science . "<br>";
 
+    
     ?>
     
 </body>

@@ -18,8 +18,6 @@
         echo " Amount in USD:" . $amountInUSD . "<br>";
         echo "Converted to EUR: €" . number_format($amountInEUR, 2) . "<br>";
         echo "Converted to PHP: £" . number_format($amountInPHP, 2) . "<br>";
-    
-  
     ?>
        
 </body>

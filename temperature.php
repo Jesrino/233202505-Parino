@@ -11,8 +11,8 @@
         $celsius = 25; 
         $fahrenheit = ($celsius * 9/5) + 32;
 
-        echo "<p>Temperature in Celsius: $celsius °C</p>";
-        echo "<p>Temperature in Fahrenheit: $fahrenheit °F</p>";
+        echo "Temperature in Celsius: " .$celsius . "°C<br>";
+        echo "Temperature in Fahrenheit: " . $fahrenheit ."°F<br>";
 
     ?>
 </body>

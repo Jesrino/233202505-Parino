@@ -15,7 +15,7 @@
 
     echo "Length: " . $length ."<br>";
     echo "Width:" . $width . "<br>";
-    echo "Area: " . $area ."<br>";
+    echo "Area: " . $area . "<br>";
     ?>
     
 </body>
