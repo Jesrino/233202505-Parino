@@ -8,7 +8,15 @@
 <body>
     <h1>Task 9: Bank Account Simulation </h1>
     <php 
-    
+    $balance = 1000;
+    $deposit = 200;
+    $withdraw =500;
+    $balance += $deposit;
+    $balance -= $withdraw;
+
+    echo "Balance: " . $balance . "<br>";
+    echo "Deposit: " . $deposit . "<br>";
+
     
     ?>
 </body>

@@ -11,13 +11,13 @@
         $a = 5;
         $b = 10;
 
-        echo "<p>Before swapping: a = $a, b = $b</p>";
+        echo "Before swapping: a = $a, b = $b <br>";
 
         $temp = $a;
         $a = $b;
         $b = $temp;
 
-        echo "<p>After swapping: a = $a, b = $b</p>";
+        echo "After swapping: a = $a, b = $b</p>";
     ?>
     
 </body> 

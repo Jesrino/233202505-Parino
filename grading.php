@@ -15,7 +15,22 @@
     echo "English: " . $english . "<br>";
     echo "Science: ". $science . "<br>";
 
-    
+    $average = ($math + $science + $english) / 3;
+    echo "Average: ". round($average, 2) ."<br>";
+    if ($average >= 90){
+        $grade = "A";
+    } elseif ($average >= 80){
+        $grade = "B";
+    } elseif ($average >= 70){
+        $grade = "C";
+    } elseif ($average >= 60){
+        $grade = "D";
+    } else {
+        $grade = "F";
+    }
+    echo "Grade". $grade ."<br>";
+
+
     ?>
     
 </body>

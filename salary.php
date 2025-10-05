@@ -8,16 +8,14 @@
 <body>
     <h1>Task 6: Salary Calculator</h1>
     <?php 
-        $hourlyRate = 550; 
-        $hoursPerWeek = 40; 
-        $weeksPerYear = 52; 
-
-        $annualSalary = $hourlyRate * $hoursPerWeek * $weeksPerYear;
-
-        echo "Hourly Rate: ". $hourlyRate . "<br>";
-        echo "Hours per Week: ". $hoursPerWeek . "</br>";
-        echo "Weeks per Year: " . $weeksPerYear . "<br>";
-        echo "Annual Salary: " . $annualSalary . "<br>";
+    $basic_salary = 30000;
+    $allowance = 5000;
+    $deductions = 2000;
+    $netsalary = $basic_salary + $allowance - $deductions;
+    echo "Basic Salary: ". $basic_salary . "<br>";
+    echo "Allowance: ". $allowance . "<br>";
+    echo "Deduction: ". $deductions . "<br>";
+    echo "Net Salary: ". $netsalary . "<br>";
         ?>
 </body>
 </html>

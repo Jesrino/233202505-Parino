@@ -9,11 +9,11 @@
     <h1>Task 7: BMI Calculator</h1>
     <php
     $weight = 59;
-    $height = 160;
+    $height = 1.70;
     $bmi = $weight / ($height * $height);
 
-    echo "Weight: " . $weight . " kg<br>";
-    echo "Height: " . $height . " cm<br>";
+    echo "Weight: " . $weight . "kg<br>";
+    echo "Height: " . $height . "m<br>";
     echo "BMI: " . $bmi . "<br>";
     ?>
 

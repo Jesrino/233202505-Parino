@@ -8,16 +8,12 @@
 <body>
     <h1>Task 11: Currency Converter </h1>
     <php 
-        $usd = 1.00;
-        $eur = 0.85;
-        $php = 55.00;
-        $amountInUSD = 100; 
-        $amountInEUR = $amountInUSD * $eur;
-        $amountInPHP = $amountInUSD * $php;
+        $php = 1000;
+        $usd_rate = 0.018;
+        $eur_rate = 0.017;
 
-        echo " Amount in USD:" . $amountInUSD . "<br>";
-        echo "Converted to EUR: €" . number_format($amountInEUR, 2) . "<br>";
-        echo "Converted to PHP: £" . number_format($amountInPHP, 2) . "<br>";
+        echo "PHP $php = USD " . ($php * $usd_rate) . "<br>";
+        echo "PHP $php = EUR " . ($php * $eur_rate) . "<br";
     ?>
        
 </body>
