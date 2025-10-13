@@ -15,7 +15,7 @@
         $total_travel_cost = $total_fuel_needed * $fuel_cost;
 
         echo "Distance: " . $distance . " miles<br>";
-        echo "Miles per Gallon: " . $m . "pg<br>";
+        echo "Miles per Gallon: " . $fuel_consumption . "pg<br>";
         echo "Fuel Cost per Gallon: " . $fuel_cost . "<br>";
         echo "Total Fuel Needed: " . number_format($total_fuel_needed, 2) . " litters<br>";
         echo "Total Travel Cost: ₱" . number_format($total_travel_cost, 2) . "<br>";
