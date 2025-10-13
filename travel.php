@@ -20,5 +20,6 @@
         echo "Total Fuel Needed: " . number_format($total_fuel_needed, 2) . " litters<br>";
         echo "Total Travel Cost: ₱" . number_format($total_travel_cost, 2) . "<br>";
     ?>
+    <button> <a class="exit-button" href="index.php"></a> Go Back</button>
 </body>
 </html>

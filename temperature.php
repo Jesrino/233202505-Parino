@@ -13,7 +13,7 @@
 
         echo "Temperature in Celsius: " .$celsius . "°C<br>";
         echo "Temperature in Fahrenheit: " . $fahrenheit ."°F<br>";
-
     ?>
+    <button> <a class="exit-button" href="index.php"></a> Go Back</button>
 </body>
 </html>

@@ -15,6 +15,6 @@
     echo "Uppercase: " . strtoupper($sentence) . "<br>";
     echo "Lowercase: " . strtolower($sentence) . "<br>";
     ?>
-    
+    <button> <a class="exit-button" href="index.php"></a> Go Back</button>
 </body>
 </html>

@@ -17,6 +17,6 @@
     echo "Width:" . $width . "<br>";
     echo "Area: " . $area . "<br>";
     ?>
-    
+    <button> <a class="exit-button" href="index.php"></a> Go Back</button>
 </body>
 </html>

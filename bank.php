@@ -15,6 +15,6 @@
     $balance -= $withdraw;
     echo "Final Balance: $balance<br>";
     ?>
-
+    <button> <a class="exit-button" href="index.php"></a> Go Back</button>
 </body>
 </html>
