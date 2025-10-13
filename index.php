@@ -6,20 +6,21 @@
     <title>PHP Excercises</title>
 </head>
 <body>
+    <h1>PHP EXERCISES</h1>
      <ul>
-        <li><a href="intro.php">Introduce Yourself</a></li>
-        <li><a href="math.php">Simple Math</a></li>
-        <li><a href="rectangle.php">Area and Perimeter of a Rectangle</a></li>
-        <li><a href="temperature.php">Temperature Converter</a></li>
-        <li><a href="swap.php"> Swapping Variables</a></li>
-        <li><a href="salary.php"> Salary Calculator</a></li>
-        <li><a href="cal.php"> BMI Calculator</a></li>
-        <li><a href="string.php"> String Manipulation</a></li>
-        <li><a href="bank.php"> Bank Account Simulation</a></li>
-        <li><a href="grading.php"> Simple Grading System</a></li>
-        <li><a href="currency.php"> Currency Converter</a></li>
-        <li><a href="travel.php"> Travel Cost Estimator</a></li> 
+        <li><a class="button" href="intro.php">Introduce Yourself</a></li>
+        <li><a class="button" href="math.php">Simple Math</a></li>
+        <li><a class="button" href="rectangle.php">Area and Perimeter of a Rectangle</a></li>
+        <li><a class="button" href="temperature.php">Temperature Converter</a></li>
+        <li><a class="button" href="swap.php"> Swapping Variables</a></li>
+        <li><a class="button" href="salary.php"> Salary Calculator</a></li>
+        <li><a class="button" href="cal.php"> BMI Calculator</a></li>
+        <li><a class="button" href="string.php"> String Manipulation</a></li>
+        <li><a class="button" href="bank.php"> Bank Account Simulation</a></li>
+        <li><a class="button" href="grading.php"> Simple Grading System</a></li>
+        <li><a class="button" href="currency.php"> Currency Converter</a></li>
+        <li><a class="button" href="travel.php"> Travel Cost Estimator</a></li> 
      </ul>
-    
+     
 </body>
 </html>

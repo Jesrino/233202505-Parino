@@ -16,5 +16,6 @@
   echo "I'm " . $age . " this year.<br>";
   echo " My favorite color was ". $color . " as this symbolize my passion.<br> ";
   ?>
+  <button> <a class="exit-button" href="index.php"></a> Go Back</button>
 </body>
 </html>
