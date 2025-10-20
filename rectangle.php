@@ -28,5 +28,9 @@
     echo "Area: " . $area . "<br>";
     }
     ?> 
+
+
+
+
 </body>
 </html> 
