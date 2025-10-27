@@ -7,6 +7,8 @@
 </head>
 <body>
     <h1>Task 6: Salary Calculator</h1>
+
+    <form action=""></form>
     <?php 
     $basic_salary = 30000;
     $allowance = 5000;
@@ -16,6 +18,6 @@
     echo "Allowance: ". $allowance . "<br>";
     echo "Deduction: ". $deductions . "<br>";
     echo "Net Salary: ". $netsalary . "<br>";
-        ?>
+    ?>
 </body>
 </html>
