@@ -7,6 +7,7 @@
 </head>
 <body>
     <h1>Task 1 : Introduce Yourself </h1>
+    <form action=""></form>
   <?php 
   $name="Jester Pariño";
   $age="20";

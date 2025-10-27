@@ -7,6 +7,7 @@
 </head>
 <body>
     <h1>Task 12: Travel Cost Estimator</h1>
+    <form action=""></form>
     <?php
         $distance = 300; 
         $fuel_consumption = 10; 

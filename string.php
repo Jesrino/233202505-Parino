@@ -7,6 +7,7 @@
 </head>
 <body>
     <h1>Task 8: String Manipulation</h1>
+    <form action=""></form>
     <?php 
     $sentence = "Hello, My Name is Jester  .";
     echo "Original Sentence: " . $sentence . "<br>";

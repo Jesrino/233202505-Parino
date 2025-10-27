@@ -6,6 +6,7 @@
     <title>Simple Math</title>
 </head>
 <body>
+    <form action=""></form>
     <H1>Task 2: Simple Math</H1>
     <?php
     $a=160;

@@ -7,6 +7,7 @@
 </head>
 <body>
     <h1>Task 5: Swapping Variables </h1>
+    <form action=""></form>
     <?php 
         $a = 5;
         $b = 10;
