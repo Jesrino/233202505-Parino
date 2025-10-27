@@ -7,6 +7,7 @@
 </head>
 <body>
     <h1>Task 10: Simple Grading System </h1>
+<form action=""></form>
     <?php 
     $math = 85;
     $english = 78;

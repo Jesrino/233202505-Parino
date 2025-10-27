@@ -7,6 +7,7 @@
 </head>
 <body>
     <h1>Task 11: Currency Converter </h1>
+    <form action=""></form>
     <?php
     $php_amount = 1000;
     $usd_rate = 0.018;

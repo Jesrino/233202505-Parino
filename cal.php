@@ -7,6 +7,7 @@
 </head>
 <body>
     <h1>Task 7: BMI Calculator</h1>
+    <form action=""></form>
     <?php
     $weight = 60; 
     $height = 1.75; 

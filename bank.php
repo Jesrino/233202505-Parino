@@ -7,6 +7,7 @@
 </head>
 <body>
     <h1>Task 9: Bank Account Simulation </h1>
+    <form action=""></form>
     <?php
     $balance = 1000;
     $deposit = 500;
