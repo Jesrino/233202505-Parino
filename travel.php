@@ -1,26 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Travel Cost Estimator</title>
-</head>
+<head><meta charset="utf-8"><title>Task 12</title></head>
 <body>
-    <h1>Task 12: Travel Cost Estimator</h1>
-    <form action=""></form>
-    <?php
-        $distance = 300; 
-        $fuel_consumption = 10; 
-        $fuel_cost= 61; 
-        $total_fuel_needed = $distance / $fuel_consumption;
-        $total_travel_cost = $total_fuel_needed * $fuel_cost;
-
-        echo "Distance: " . $distance . " miles<br>";
-        echo "Miles per Gallon: " . $fuel_consumption . "pg<br>";
-        echo "Fuel Cost per Gallon: " . $fuel_cost . "<br>";
-        echo "Total Fuel Needed: " . number_format($total_fuel_needed, 2) . " litters<br>";
-        echo "Total Travel Cost: ₱" . number_format($total_travel_cost, 2) . "<br>";
-    ?>
-    <button> <a class="exit-button" href="index.php"></a> Go Back</button>
+  <h1>12. Travel Cost Estimator</h1>
+  <?php function h($s){return htmlspecialchars($s,ENT_QUOTES,'utf-8');} ?>
+  <?php
+    $out = '';
+    if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+      $distance = (float)($_POST['distance'] ?? 0);
+      $consumption = (float)($_POST['fuel_consumption'] ?? 1);
+      $price = (float)($_POST['fuel_price'] ?? 0);
+      if ($consumption <= 0) $out = "Invalid fuel consumption.";
+      else $out = "Estimated cost: " . round(($distance / $consumption) * $price, 2);
+    }
+  ?>
+  <form method="post">
+    <label>Distance (km): <input name="distance" type="number" step="any" value="<?php echo h($_POST['distance'] ?? ''); ?>"></label><br>
+    <label>Fuel consumption (km/l): <input name="fuel_consumption" type="number" step="any" value="<?php echo h($_POST['fuel_consumption'] ?? ''); ?>"></label><br>
+    <label>Fuel price (per liter): <input name="fuel_price" type="number" step="any" value="<?php echo h($_POST['fuel_price'] ?? ''); ?>"></label><br>
+    <button type="submit">Estimate</button>
+  </form>
+  <?php if ($out): ?><p><strong>Result:</strong> <?php echo h($out); ?></p><?php endif; ?>
+  <p><a href="index.php">Back</a></p>
 </body>
 </html>
