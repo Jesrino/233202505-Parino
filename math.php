@@ -45,6 +45,6 @@ if ($resultDisplayed) {
         <button type="submit">Compute</button>
     </form>
 
-    <p><a href="index.php">Back</a></p>
+    <p><button><a href="index.php">Back</a></button></p>
 </body>
 </html>

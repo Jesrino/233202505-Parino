@@ -21,6 +21,6 @@
     <button type="submit">Estimate</button>
   </form>
   <?php if ($out): ?><p><strong>Result:</strong> <?php echo h($out); ?></p><?php endif; ?>
-  <p><a href="index.php">Back</a></p>
+    <p><button><a href="index.php">Back</a></button></p>
 </body>
 </html>

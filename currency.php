@@ -17,6 +17,6 @@
     echo "₱ $php_amount = € " . ($php_amount * $eur_rate) . "<br>";
     echo "₱ $php_amount = ¥ " . ($php_amount * $jpy_rate) . "<br>";
     ?> 
-    <button> <a class="exit-button" href="index.php"></a> Go Back</button>
+    <p><button><a href="index.php">Back</a></button></p>
 </body>
 </html>
