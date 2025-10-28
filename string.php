@@ -6,16 +6,24 @@
     <title>String Manipulation</title>
 </head>
 <body>
-    <h1>Task 8: String Manipulation</h1>
-    <form action=""></form>
-    <?php 
-    $sentence = "Hello, My Name is Jester  .";
-    echo "Original Sentence: " . $sentence . "<br>";
-    echo "Number of characters: " . strlen($sentence) . "<br>";
-    echo "Number of words: " . str_word_count($sentence) . "<br>";
-    echo "Uppercase: " . strtoupper($sentence) . "<br>";
-    echo "Lowercase: " . strtolower($sentence) . "<br>";
-    ?>
-    <p><button><a href="index.php">Back</a></button></p>
+  <h1>8. String Manipulation</h1>
+  <?php function h($s){return htmlspecialchars($s,ENT_QUOTES,'utf-8');} ?>
+  <?php
+    $out = '';
+    if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+      $sentence = $_POST['sentence'] ?? '';
+      $chars = strlen($sentence);
+      $words = str_word_count($sentence);
+      $upper = strtoupper($sentence);
+      $lower = strtolower($sentence);
+      $out = "Chars: $chars, Words: $words, Upper: $upper, Lower: $lower";
+    }
+  ?>
+  <form method="post">
+    <label>Sentence: <input name="sentence" value="<?php echo h($_POST['sentence'] ?? ''); ?>" style="width:80%"></label><br>
+    <button type="submit">Analyze</button>
+  </form>
+  <?php if ($out): ?><p><strong>Result:</strong> <?php echo h($out); ?></p><?php endif; ?>
+  <p><button><a href="index.php">Back</a></button></p>
 </body>
 </html>
