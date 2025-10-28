@@ -28,6 +28,6 @@
     echo "Area: " . $area . "<br>";
     }
     ?> 
-
+    <p><button><a href="index.php">Back</a></button></p>
 </body>
 </html> 

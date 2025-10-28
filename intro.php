@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Introduce Yourself</title>
-</head>
+<head><meta charset="utf-8"><title>Task 1</title></head>
 <body>
-    <h1>Task 1 : Introduce Yourself </h1>
-    <form action=""></form>
-  <?php 
-  $name="Jester Pariño";
-  $age="20";
-  $color="Light Blue";
-
-  echo " My name is " . $name . " nice to meet you. <br>";
-  echo "I'm " . $age . " this year.<br>";
-  echo " My favorite color was ". $color . " as this symbolize my passion.<br> ";
+  <h1>1. Introduce Yourself</h1>
+  <?php function h($s){return htmlspecialchars($s,ENT_QUOTES,'utf-8');} ?>
+  <?php
+    $result = '';
+    if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+      $name = $_POST['name'] ?? '';
+      $age = (int)($_POST['age'] ?? 0);
+      $color = $_POST['color'] ?? '';
+      $result = "Hi, I'm " . h($name) . ", I am " . h($age) . " years old, and my favorite color is " . h($color) . ".";
+    }
   ?>
-  <button> <a href="index.php"></a> Go Back</button>
+  <form method="post">
+    <label>Name: <input name="name" value="<?php echo h($_POST['name'] ?? ''); ?>"></label><br>
+    <label>Age: <input name="age" type="number" value="<?php echo h($_POST['age'] ?? ''); ?>"></label><br>
+    <label>Favorite color: <input name="color" value="<?php echo h($_POST['color'] ?? ''); ?>"></label><br>
+    <button type="submit">Submit</button>
+  </form>
+  <?php if ($result): ?><p><strong>Result:</strong> <?php echo $result; ?></p><?php endif; ?>
+    <p><button><a href="index.php">Back</a></button></p>
 </body>
 </html>
