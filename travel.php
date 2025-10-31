@@ -2,6 +2,14 @@
 <html lang="en">
 <head><meta charset="utf-8"><title>Task 12</title></head>
 <body>
+  
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    label { display: block; margin-top: 10px; }
+    input { margin-left: 10px; }
+    button { margin-top: 15px; }
+  </style>
+
   <h1>12. Travel Cost Estimator</h1>
   <?php function h($s){return htmlspecialchars($s,ENT_QUOTES,'utf-8');} ?>
   <?php
@@ -13,6 +21,7 @@
       if ($consumption <= 0) $out = "Invalid fuel consumption.";
       else $out = "Estimated cost: " . round(($distance / $consumption) * $price, 2);
     }
+
   ?>
   <form method="post">
     <label>Distance (km): <input name="distance" type="number" step="any" value="<?php echo h($_POST['distance'] ?? ''); ?>"></label><br>
