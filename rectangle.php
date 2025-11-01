@@ -6,6 +6,13 @@
     <title>Area and Perimeter of a Rectangle</title>
 </head>
 <body>
+     <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    label { display: block; margin-top: 10px; }
+    input { margin-left: 10px; }
+    button { margin-top: 15px; }
+  </style>
+  
     <H1>Task 3:Area and Perimeter of a Rectangle </H1>
     <form action="" method="POST">
         <label for="length">Enter Length:</label>
