@@ -6,6 +6,12 @@
     <title>Simple Math</title>
 </head>
 <body>
+     <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    label { display: block; margin-top: 10px; }
+    input { margin-left: 10px; }
+    button { margin-top: 15px; }
+  </style>
     <h1>Task 2: Simple Math</h1>
 
 <?php
